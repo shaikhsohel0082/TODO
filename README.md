@@ -1,6 +1,7 @@
 # TODO Application
 This is a simple ToDo Application created using react.
-
+### Hosted Link
+[Live Demo]("https://react-todo-shaikh082.netlify.app/")
 ## Features
 1) Add ToDo
 2) Update ToDo
@@ -13,9 +14,11 @@ Make sure you have Node.js and npm installed on your machine.
 ### Installation
 1) Clone the repository:
 ```
+https://github.com/shaikhsohel0082/TODO.git
 ```
 2) Navigate to the project directory:
 ```
+cd TODO
 ```
 3) Install the dependencies:
 ```
@@ -26,3 +29,5 @@ To start the development server, run:
 ```
 npm start 
 ```
+### Contributing
+If you want to contribute to this project, feel free to open issues or pull requests. Contributions are welcome!

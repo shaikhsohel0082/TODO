@@ -20,12 +20,12 @@ export default function TodoList() {
         data.map((item) => (
           <div className={Styles.list} key={item.id}>
             <div className={Styles.title}>
-              {/* if title length is greater than 40 then it will display title in two line */}
-              {item.title.length >= 40 ? (
+              {/* if title length is greater than 30 then it will display title in two line */}
+              {item.title.length >= 20 ? (
                 <>
-                  {item.title.slice(0, 40)}
+                  {item.title.slice(0, 20)}
                   <br />
-                  {item.title.slice(40)}
+                  {item.title.slice(20)}
                 </>
               ) : (
                 item.title
@@ -36,7 +36,6 @@ export default function TodoList() {
                 className={item.isCompleted ? Styles.completed : Styles.pending}
                 onClick={() => dispatch(toggle({ id: item.id }))}
               >
-                
                 {item.isCompleted ? "Completed" : "Pending"}
               </button>
             </div>
